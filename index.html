@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            direction: rtl;
+            font-family: "Tajawal";
+            padding: 2% 20%; /* TRBL */
+            background-color: #2E3048;
+            color: white;
+        }
+       section{
+           padding-top: 10px;
+       }
+       footer{
+           text-align: center;
+       }
+       .product-card{
+           margin-left: 36px;
+           width: 150px;
+           height: 150px;
+           background: linear-gradient(180deg, rgba(0, 169, 157, 0.92) 0%, rgba(99, 163, 186, 0.92) 85.94%);
+           border-radius: 10px;
+           display: inline-block;
+       }
+       .team-cards{
+           margin-left: 20px;
+           width: 100px;
+           height: 100px;
+           background: linear-gradient(180deg, rgba(0, 169, 157, 0.92) 0%, rgba(99, 163, 186, 0.92) 85.94%);
+           border-radius: 50px;
+           display: inline-block;
+       }
+        .input-spans {
+            display: inline-block;
+            padding-bottom: 20px;
+            width: 70%;
+        }
+        input {
+            background-color: #2E3048;
+            width: 60%;
+            border-style: solid;
+            border-color: white;
+            border-radius: 0.1cm;
+            border-width: 0.05cm;
+            height: 30px;
+            -webkit-appearance: none;
+            margin-left: 39px;
+        }
+        .input-area {
+            width: 60%;
+            height: 90px;
+        }
+        select {
+            background-color: #2E3048;
+            color: white;
+            font-family: "Tajawal";
+            width: 61%;
+            border-style: solid;
+            border-color: white;
+            border-radius: 0.1cm;
+            border-width: 0.02cm;
+            height: 35px;
+            padding-right: 20px;
+            background-image: url(./images/caret-down-solid.svg);
+            background-position: 2% 50%;
+            background-size: 20px 20px;
+            background-repeat: no-repeat;
+            -webkit-appearance: none;
+            margin-left: 39px;
+        }
+        .area-span {
+            display: inline-block;
+            margin-top: 15px;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+        ::placeholder {
+            font-family: "Tajawal";
+            padding-right: 2%;
+            color: white;
+        }
+        .red {
+            color: #FF5C5C;
+        }
+        .button {
+            /*margin-top: 1px;*/
+            /*margin-bottom: 10px;*/
+            font-family: "Tajawal";
+            background-color: #FFCB21;
+            /* box-shadow: 5px 5px 4px lightgray; */
+            border: none;
+            width: 120px;
+            border-radius: 0.1cm;
+            height: 30px;
+            -webkit-appearance: none;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اكسندا</h1>
+        <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+
+            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات .</p>
+    </header>
+
+    <section id="products" class="products">
+        <h2>منتجات اكسندا</h2>
+        <span>
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+        </span>
+        <span style="display: block; margin-top: 20px">
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+            <div class="product-card"></div>
+        </span>
+    </section>
+
+    <section id="team">
+        <h2>فريق اكسندا</h2>
+        <span>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+        </span>
+        <span style="display: block; margin-top: 30px">
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+            <div class="team-cards"></div>
+        </span>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل مع اكسندا</h2>
+
+        <form action="" method="post">
+            <div style="margin-right: 50px; margin-top: 30px">
+            <!-- msg type -->
+            <div style="margin-bottom: 30px">
+                <label>فئة الرسالة <span class="red">*</span></label>
+                <select style="float: left" name="msg-type" required>
+                    <option value="suggestion">اقتراح </option>
+                    <option value="other">آخر</option>
+                </select>
+            </div>
+
+            <!-- email -->
+            <div style="margin-bottom: 30px">
+                <label>"بريدك الإلكتروني <span class="red">* </span></label>
+                <input style="float: left" class="input" type="email" placeholder="example@domain.com" required>
+            </div>
+
+            <!-- msg -->
+            <div style="margin-bottom: 30px">
+                <label>الرسالة <span class="red">* </span></label>
+                <input style="float: left" class="input-area" name="msg" type="text">
+            </div>
+
+<!--            <input class="button" type="reset" style="background-color: #FF5C5C" value="مسح الكل">-->
+
+            <input style="font-family: 'Tajawal'; background-color: #FFCB21; margin-top: 20px; margin-bottom: 20px;border: none;
+
+            border-radius: 0.1cm;
+            height: 30px;
+            -webkit-appearance: none;
+            float: left; display: block" type="submit" value="إرسال">
+
+
+            </div>
+        </form>
+    </section>
+
+<!--    <footer>-->
+<!--        <p style="margin-top: 120px">اكسندا ٢٠٢٠</p>-->
+<!--    </footer>-->
+</body>
+</html>
