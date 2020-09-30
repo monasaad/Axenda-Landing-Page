@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee0d82c-ec5e-4dea-aee6-7ef6824e9f73" name="Default Changelist" comment="" />
+    <list default="true" id="bee0d82c-ec5e-4dea-aee6-7ef6824e9f73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/5f477ffced94e20b4796299a_main3_s.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/linkedin (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +39,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1i9yk1eIcRhLU66miGgzBH2etwM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +56,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -39,11 +71,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601334241742</updated>
-      <workItem from="1601334242874" duration="4342000" />
+      <workItem from="1601334242874" duration="4722000" />
+      <workItem from="1601341402989" duration="1000" />
+      <workItem from="1601475396987" duration="5728000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="374" y="339" key="Github.ShareDialog" timestamp="1601340792846">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="374" y="339" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1601340792846" />
+    <state x="303" y="147" key="Github.UntrackedFilesDialog" timestamp="1601340799325">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="303" y="147" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1601340799325" />
   </component>
 </project>
